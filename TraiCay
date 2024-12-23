@@ -137,7 +137,7 @@ Request(Final)
 
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Green>Turbo Lite — Auto Nhặt Trái<Color=/> "
+            " <Color=Green>VGB_VGB_VGB — Auto Nhặt Trái<Color=/> "
         ):Display()
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
@@ -246,7 +246,7 @@ for f, f in next, workspace:GetChildren() do
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "VGB_TEAM",
+                Title = "VGB_VGB_VGB,
                 Text = "Đang Đi Nhặt Trái",
                 Duration = 10
             }
@@ -276,7 +276,7 @@ for f, f in next, workspace:GetChildren() do
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "Turbo Lite",
+                Title = "VGB_VGB_VGB",
                 Text = "Đã Nhặt Được: " .. f.Name,
                 Duration = 10
             }
@@ -306,7 +306,7 @@ if not fruitsFound then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "VGB_TEAM",
+            Title = "VGB_VGB_VGB",
             Text = "Không Có Thấy Trái Trong Server",
             Duration = 5
         }
@@ -414,7 +414,7 @@ repeat
                 game.StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "VGB_TEAM",
+                        Title = "VGB_VGB_VGB",
                         Text = "Đang Đổi Server",
                         Duration = 10
                     }
