@@ -1,4 +1,4 @@
-
+getgenv().Team = "Pirate"
 local ScreenGui = Instance.new("ScreenGui")
 local LinkLabel = Instance.new("TextLabel")
 local PingLabel = Instance.new("TextLabel")
@@ -141,7 +141,7 @@ require(game.ReplicatedStorage:WaitForChild("Notification")).new(
         ):Display()
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Red>Các Bạn Chọn Team Trước Khi Chạy Script !!!<Color=/> "
+            " <Color=Red>! Các Bạn Chọn Team Trước Khi Chạy Script !<Color=/> "
         ):Display()
 -- Hàm làm tròn
 local function round(n)
