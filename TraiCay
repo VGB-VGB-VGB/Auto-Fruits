@@ -137,11 +137,11 @@ Request(Final)
 
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Green>VGB_VGB_VGB — Auto Nhặt Trái<Color=/> "
+            " <Color=Green>VGB_VGB_VGB — Tự Động Nhặt Trái<Color=/> "
         ):Display()
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Red>! Các Bạn Chọn Team Trước Khi Chạy Script !<Color=/> "
+            " <Color=Red>!!! Các Bạn Chọn Team Trước Khi Chạy Script !!!<Color=/> "
         ):Display()
 -- Hàm làm tròn
 local function round(n)
